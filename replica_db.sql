@@ -1,0 +1,7 @@
+CREATE DATABASE replica_db;
+USE replica_db;
+
+CREATE TABLE usuarios (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(100) NOT NULL
+);
